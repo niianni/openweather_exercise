@@ -16,11 +16,10 @@ WEATHER_URL = "https://api.openweathermap.org/data/2.5/weather"
 # Pre-defined geo-coordinates for some cities, feel free to add/remove more using google maps
 # Don't go too crazy though, as the script will perform one API call per city!
 geo_locations = {
-    "uppsala": (59.9, 17.6),
-    "östersund": (63.2, 14.6),
-    "luleå": (65.6, 22.1),
-    "göteborg": (57.7, 12),
-    "trelleborg": (55.4, 13.2)
+    "tampere": (61.498100, 23.760890),
+    "pori": (61.486599, 21.796788),
+    "helsinki": (60.167640, 24.954443),
+    "turku": (60.451515, 22.267119)
 }
 
 def request_new_weather_data():

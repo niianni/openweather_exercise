@@ -1,0 +1,2 @@
+visibility,weather.id,weather.main,weather.description,weather.icon,main.temp,main.feels_like,main.temp_min,main.temp_max,main.pressure,main.humidity,main.sea_level,main.grnd_level,wind.speed,wind.deg,clouds.all
+10000,804,Clouds,overcast clouds,04d,276.32,273.02,275.39,276.44,1018,94,1018,1015,3.6,180,100

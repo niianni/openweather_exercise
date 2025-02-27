@@ -1,0 +1,2 @@
+visibility,weather.id,weather.main,weather.description,weather.icon,main.temp,main.feels_like,main.temp_min,main.temp_max,main.pressure,main.humidity,main.sea_level,main.grnd_level,wind.speed,wind.deg,wind.gust,clouds.all
+300,741,Fog,fog,50d,274.65,271.34,274.12,275.61,1019,99,1019,1017,3.13,156,4.02,100

@@ -17,6 +17,7 @@ def load_dfs_from(glob_path):
     
     return subject_data, file_paths # Returns a list of dataframes, and extracted files paths
 
+# Transform the data
 def transform_weather():
     data, paths = load_dfs_from(f"{data_dir}*.csv")
     weather_data = []
@@ -26,6 +27,10 @@ def transform_weather():
         weather_entry = {
             "city": os.path.basename(path)[:-4], # Remove ".csv" at the end
             "tempature": entry["main.temp"] - 273, # Convert to Celsius from Kelvin
+            "weather": entry["weather.main"],
+            "weather_desc": entry["weather.description"],
+            "cloudy": entry["clouds.all"],
+            "humid": entry["main.humidity"]
         }
         weather_data.append(weather_entry)
 
